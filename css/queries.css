@@ -24,6 +24,10 @@
         margin-top: 20%;
     }
 
+    .post-img {
+        border-radius: 10px 10px 0 0;
+    }
+
     .triangle {
         display: none;
     }
@@ -37,7 +41,7 @@
         height: 70px;
         bottom: -15px;
         left: -35px;
-        border-radius: 0;
+        border-radius: 0 0 10px 10px;
     }
     
     .share-box div {

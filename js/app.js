@@ -12,11 +12,15 @@ share.addEventListener(
             state = 1;
             shareBox.classList.remove('hidden');
             shareBoxTr.classList.remove('hidden');
+            share.classList.remove('share-not-active');
+            share.classList.add('share-active')
         }
         else {
             state = 0;
             shareBox.classList.add('hidden');
             shareBoxTr.classList.add('hidden');
+            share.classList.remove('share-active');
+            share.classList.add('share-not-active')
         }
     }
 )

@@ -85,9 +85,17 @@ p {
 .share {
     margin-top: 5px;
     padding: 13px;
-    background-color: var(--Light-Grayish-Blue);
     border-radius: 50%;
     cursor: pointer;
+    transition: background .5s ease-in-out;
+}
+
+.share-not-active {
+    background-color: var(--Light-Grayish-Blue);
+}
+
+.share-active {
+    background-color: var(--Desaturated-Dark-Blue);
 }
 
 .share-box {
