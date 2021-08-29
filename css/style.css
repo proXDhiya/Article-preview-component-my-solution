@@ -48,11 +48,13 @@ p {
     display: grid;
     grid-template-columns: 280px 420px;
     grid-template-rows: 100%;
+    border-radius: 10px;
 }
 
 .post-img {
     background-image: url(../images/drawers.jpg);
     background-size: cover;
+    border-radius: 10px 0 0 10px;
 }
 
 .post-content {
@@ -81,7 +83,8 @@ p {
 }
 
 .share {
-    padding: 10px;
+    margin-top: 5px;
+    padding: 13px;
     background-color: var(--Light-Grayish-Blue);
     border-radius: 50%;
     cursor: pointer;
@@ -94,7 +97,7 @@ p {
     height: 40px;
     box-shadow: 0px 0px 3px var(--Grayish-Blue);
     position: absolute;
-    left: 240px;
+    left: 245px;
     bottom: 60px;
 }
 
@@ -105,7 +108,7 @@ p {
     border: 15px solid transparent;
     border-top: 15px solid var(--Very-Dark-Grayish-Blue);
     border-bottom: 0;
-    left: 322px;
+    left: 325px;
     bottom: 50px;
 }
 
@@ -118,18 +121,18 @@ p {
 .share-box div a {
     width: 40%;
     text-decoration: none;
-    color: var(--Light-Grayish-Blue);
+    color: var(--Grayish-Blue);
     text-transform: uppercase;
     letter-spacing: 3px;
     align-self: center;
     text-align: center;
-    margin-left: 5px;
+    padding-left: 10px;
 }
 
 .share-box div img {
     width: 15px;
     height: 15px;
-    margin: 13.5px 8px 11.5px 8px;
+    margin: 13.5px 3px 11.5px 3px;
 }
 
 .hidden {

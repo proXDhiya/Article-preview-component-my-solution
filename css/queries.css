@@ -1,0 +1,58 @@
+@media (max-width: 800px) {
+    body {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 140%;
+    }
+
+    .box {
+        width: 340px;
+        height: 550px;
+        grid-template-columns: 100%;
+        grid-template-rows: 220px 330px;
+    }
+
+    .post-content {
+        height: 300px;
+        width: 270px;
+        padding-top: 40px;
+    }
+
+    .post-profile {
+        margin-top: 20%;
+    }
+
+    .triangle {
+        display: none;
+    }
+
+    .share {
+        z-index: 10;
+    }
+
+    .share-box {
+        width: 340px;
+        height: 70px;
+        bottom: -15px;
+        left: -35px;
+        border-radius: 0;
+    }
+    
+    .share-box div {
+        display: grid;
+        grid-template-columns: 30% repeat(3, 1fr) 3fr;
+    }
+
+    .share-box div img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .share-box div a {
+        font-size: 120%;
+        padding: 0;
+        justify-self: center;
+    }
+}
