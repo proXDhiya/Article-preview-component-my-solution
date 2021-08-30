@@ -83,18 +83,21 @@ p {
 }
 
 .share {
+    width: 20px;
+    height: 20px;
     margin-top: 5px;
-    padding: 13px;
+    padding: 9px;
     border-radius: 50%;
     cursor: pointer;
-    transition: background .5s ease-in-out;
+    transition: color .5s, background .5s;
 }
 
 .share-not-active {
-    background-color: var(--Light-Grayish-Blue);
+    color: var(--Desaturated-Dark-Blue);
 }
 
 .share-active {
+    color: var(--Light-Grayish-Blue);
     background-color: var(--Desaturated-Dark-Blue);
 }
 
@@ -137,12 +140,30 @@ p {
     padding-left: 10px;
 }
 
-.share-box div img {
-    width: 15px;
-    height: 15px;
-    margin: 13.5px 3px 11.5px 3px;
+.share-box div ion-icon {
+    width: 25px;
+    height: 25px;
+    margin: 13.5px 0 11.5px 0;
 }
 
 .hidden {
     display: none;
+}
+
+#facebook,
+#twitter,
+#pinterest {
+    transition: color .5s;
+}
+
+#facebook:hover {
+    color: #4267B2;
+}
+
+#twitter:hover {
+    color: #1da1f2;
+}
+
+#pinterest:hover {
+    color: #E60023;
 }
